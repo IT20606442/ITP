@@ -1,0 +1,52 @@
+/* Alert */
+.alert-hover {
+  position: fixed;
+  z-index: 1080;
+  top: 100px;
+  right: 0.5vw;
+  min-width: 50vw;
+  max-width: 98vw;
+}
+.alert-inner--title{
+  margin: 0 10px;
+}
+
+/* input */
+input[type="file"]{
+  color: transparent;
+}
+input[type="file"]::after{
+  color: black;
+  content:attr(filename);
+  position:absolute;
+  left: 6.75rem;
+  top:0.75rem;
+}
+
+table td, table th {
+  border: 1px solid rgba(221,221,221,0.5);
+  padding: 8px; 
+  white-space: nowrap;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgba(33, 112, 177, 0.8);
+  color: white;
+}
+
+.MuiAvatar-img{
+  height: 100% !important;
+}
+
+th .fas{text-align: right; font-size: 12px;}
+
+.mx-auto{
+  margin: 0 auto !important;
+}
