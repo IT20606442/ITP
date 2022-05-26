@@ -6,7 +6,7 @@ const initState = {
   userUpdate: {},
   userDelete: {},
 };
-
+//user-reducer
 const userReducer = (user = initState, action) => {
   switch (action.type) {
     // user
